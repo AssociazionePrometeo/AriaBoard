@@ -1,0 +1,2 @@
+open-project         --->  https://github.com/open-project/kicadlibrary
+arduino_shieldsNCL   --->  http://www.thingiverse.com/thing:9630

@@ -1,0 +1,251 @@
+EESchema Schematic File Version 2  date Sun 26 May 2013 19:47:41 CEST
+LIBS:dallas
+LIBS:arduino_shieldsNCL
+LIBS:open-project
+LIBS:device_sot
+LIBS:connectors
+LIBS:openlab_lib
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:AriaBoard-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "AriaBoard"
+Date "26 may 2013"
+Rev "0.1"
+Comp "Associazione Pometeo"
+Comment1 "Openlab_to"
+Comment2 "OpenHardware CC-BY-SA"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R6
+U 1 1 514F5040
+P 4500 3425
+F 0 "R6" V 4580 3425 50  0000 C CNN
+F 1 "100K" V 4500 3425 50  0000 C CNN
+F 2 "" H 4500 3425 60  0000 C CNN
+F 3 "" H 4500 3425 60  0000 C CNN
+	1    4500 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C7
+U 1 1 514F5042
+P 4275 3375
+F 0 "C7" H 4100 3475 50  0000 L CNN
+F 1 "10uF/25V" H 3800 3275 50  0000 L CNN
+F 2 "" H 4275 3375 60  0000 C CNN
+F 3 "" H 4275 3375 60  0000 C CNN
+	1    4275 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR041
+U 1 1 514F5043
+P 4275 3675
+F 0 "#PWR041" H 4275 3675 30  0001 C CNN
+F 1 "GND" H 4275 3605 30  0001 C CNN
+F 2 "" H 4275 3675 60  0000 C CNN
+F 3 "" H 4275 3675 60  0000 C CNN
+	1    4275 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 514F5044
+P 6050 3175
+F 0 "C10" V 6125 3275 50  0000 L CNN
+F 1 "10nF" V 5975 2925 50  0000 L CNN
+F 2 "" H 6050 3175 60  0000 C CNN
+F 3 "" H 6050 3175 60  0000 C CNN
+	1    6050 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR_SMALL U7
+U 1 1 514F5045
+P 7125 3675
+F 0 "U7" H 7125 3775 50  0000 C CNN
+F 1 "INDUCTOR_SMALL" H 7125 3625 50  0000 C CNN
+F 2 "" H 7125 3675 60  0000 C CNN
+F 3 "" H 7125 3675 60  0000 C CNN
+	1    7125 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 514F5046
+P 5650 4625
+F 0 "C9" H 5700 4725 50  0000 L CNN
+F 1 "3.3nF" H 5700 4525 50  0000 L CNN
+F 2 "" H 5650 4625 60  0000 C CNN
+F 3 "" H 5650 4625 60  0000 C CNN
+	1    5650 4625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R7
+U 1 1 514F5047
+P 5450 4875
+F 0 "R7" V 5530 4875 50  0000 C CNN
+F 1 "6.8K" V 5450 4875 50  0000 C CNN
+F 2 "" H 5450 4875 60  0000 C CNN
+F 3 "" H 5450 4875 60  0000 C CNN
+	1    5450 4875
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R9
+U 1 1 514F5048
+P 7125 4150
+F 0 "R9" V 7025 4150 50  0000 C CNN
+F 1 "26.1K 1%" V 7225 4150 50  0000 C CNN
+F 2 "" H 7125 4150 60  0000 C CNN
+F 3 "" H 7125 4150 60  0000 C CNN
+	1    7125 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R8
+U 1 1 514F5049
+P 6875 4400
+F 0 "R8" V 6955 4400 50  0000 C CNN
+F 1 "10K 1%" V 6800 4400 50  0000 C CNN
+F 2 "" H 6875 4400 60  0000 C CNN
+F 3 "" H 6875 4400 60  0000 C CNN
+	1    6875 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 514F504A
+P 4500 4325
+F 0 "C8" H 4550 4425 50  0000 L CNN
+F 1 "0.1uF" H 4550 4225 50  0000 L CNN
+F 2 "" H 4500 4325 60  0000 C CNN
+F 3 "" H 4500 4325 60  0000 C CNN
+	1    4500 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR042
+U 1 1 514F504B
+P 4500 4525
+F 0 "#PWR042" H 4500 4525 30  0001 C CNN
+F 1 "GND" H 4500 4455 30  0001 C CNN
+F 2 "" H 4500 4525 60  0000 C CNN
+F 3 "" H 4500 4525 60  0000 C CNN
+	1    4500 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 514F504C
+P 7375 4350
+F 0 "C11" H 7425 4450 50  0000 L CNN
+F 1 "22uF 6.3v" H 7425 4250 50  0000 L CNN
+F 2 "" H 7375 4350 60  0000 C CNN
+F 3 "" H 7375 4350 60  0000 C CNN
+	1    7375 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MP2307 U6
+U 1 1 514F5056
+P 5400 3925
+F 0 "U6" H 5450 4450 60  0000 C CNN
+F 1 "MP2307" H 5400 3925 60  0000 C CNN
+F 2 "~" H 5400 3925 60  0000 C CNN
+F 3 "~" H 5400 3925 60  0000 C CNN
+	1    5400 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3175 5000 3175
+Connection ~ 4500 3175
+Connection ~ 4275 3175
+Wire Wire Line
+	6350 3675 6875 3675
+Wire Wire Line
+	6250 3175 6875 3175
+Wire Wire Line
+	6875 3175 6875 3675
+Wire Wire Line
+	6350 4150 6875 4150
+Wire Wire Line
+	7375 4150 7375 3675
+Wire Wire Line
+	5000 4625 5000 5125
+Wire Wire Line
+	5000 5125 6875 5125
+Wire Wire Line
+	6875 5125 6875 4650
+Connection ~ 5450 5125
+Wire Wire Line
+	6875 4650 7375 4650
+Wire Wire Line
+	7375 4650 7375 4550
+Connection ~ 6875 4650
+Connection ~ 7375 4150
+Connection ~ 6875 4150
+Connection ~ 7375 3675
+Connection ~ 6875 3675
+Text HLabel 3000 3950 2    60   Input ~ 0
+VIN
+Text HLabel 3000 4200 2    60   Input ~ 0
+GND
+Wire Wire Line
+	4275 3575 4275 3675
+Text HLabel 7375 3675 2    60   Input ~ 0
++3V
+Text Label 3000 4200 2    60   ~ 0
+GND
+Text Label 3000 3950 2    60   ~ 0
+VIN
+Text Label 4200 3175 2    60   ~ 0
+VIN
+$Comp
+L GND #PWR043
+U 1 1 514FEFCD
+P 6875 5125
+F 0 "#PWR043" H 6875 5125 30  0001 C CNN
+F 1 "GND" H 6875 5055 30  0001 C CNN
+F 2 "" H 6875 5125 60  0000 C CNN
+F 3 "" H 6875 5125 60  0000 C CNN
+	1    6875 5125
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

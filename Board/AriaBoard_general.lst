@@ -1,0 +1,108 @@
+eeschema (2013-mar-30)-stable  >> Creation date: Sun 26 May 2013 02:02:39 CEST
+#Cmp ( order = Reference )
+| BT1        BATTERY     
+| C2         10uF/25V    
+| C3         0.1uF       
+| C4         3.3nF       
+| C5         10nF        
+| C6         22uF 6.3v   
+| C7         10uF/25V    
+| C8         0.1uF       
+| C9         3.3nF       
+| C10        10nF        
+| C11        22uF 6.3v   
+| C12        0.1uF       
+| C13        0.1uF       
+| CP1        10uF        
+| D1         LED         
+| D2         LED         
+| J1         USB_MICRO   
+| J2         HR911105_RJ45
+| J3         USB_MICRO   
+| J4         USB_MICRO   
+| J5         USB_MICRO   
+| J6         JUMP_2      
+| J7         JUMP_2      
+| J8         JUMP_2      
+| P1         CONN_2      
+| P2         CONN_2      
+| P3         CONN_4      
+| P4         CONN_5      
+| P5         CONN_5      
+| P6         CONN_6      
+| P7         DIL38       
+| R2         100K        
+| R3         6.8K        
+| R4         10K 1%      
+| R5         44.2K 1%    
+| R6         100K        
+| R7         6.8K        
+| R8         10K 1%      
+| R9         26.1K 1%    
+| R10        270         
+| R11        270         
+| SW2        SW_PUSH     
+| U1         DS18S20     
+| U2         MICROSDCARD 
+| U3         ARIAG25     
+| U4         MP2307      
+| U5         INDUCTOR_SMALL
+| U6         MP2307      
+| U7         INDUCTOR_SMALL
+| U8         FT232RL     
+#End Cmp
+
+#Cmp ( order = Value )
+| BATTERY      BT1       
+| 3.3nF        C4        
+| 3.3nF        C9        
+| 10nF         C5        
+| 10nF         C10       
+| 0.1uF        C3        
+| 0.1uF        C8        
+| 0.1uF        C12       
+| 0.1uF        C13       
+| 10uF/25V     C2        
+| 10uF/25V     C7        
+| 22uF 6.3v    C6        
+| 22uF 6.3v    C11       
+| 10uF         CP1       
+| LED          D1        
+| LED          D2        
+| USB_MICRO    J1        
+| HR911105_RJ45 J2        
+| USB_MICRO    J3        
+| USB_MICRO    J4        
+| USB_MICRO    J5        
+| JUMP_2       J6        
+| JUMP_2       J7        
+| JUMP_2       J8        
+| CONN_2       P1        
+| CONN_2       P2        
+| CONN_4       P3        
+| CONN_5       P4        
+| CONN_5       P5        
+| CONN_6       P6        
+| DIL38        P7        
+| 270          R10       
+| 270          R11       
+| 6.8K         R3        
+| 6.8K         R7        
+| 10K 1%       R4        
+| 10K 1%       R8        
+| 26.1K 1%     R9        
+| 44.2K 1%     R5        
+| 100K         R2        
+| 100K         R6        
+| SW_PUSH      SW2       
+| DS18S20      U1        
+| MICROSDCARD  U2        
+| INDUCTOR_SMALL U5        
+| INDUCTOR_SMALL U7        
+| FT232RL      U8        
+| ARIAG25      U3        
+| MP2307       U4        
+| MP2307       U6        
+#End Cmp
+
+#End List
