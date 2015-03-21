@@ -1,10 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:dallas
-LIBS:arduino_shieldsNCL
-LIBS:open-project
-LIBS:device_sot
-LIBS:connectors
-LIBS:openlab_lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,12 +29,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:AriaBoard-cache
+LIBS:Voltage_Regulation_5V-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 1 1
 Title "AriaBoard"
 Date "12 mar 2015"
 Rev "0.1"

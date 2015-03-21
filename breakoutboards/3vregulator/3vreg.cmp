@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by CvPcb (2014-01-10 BZR 4027)-stable date = sab 21 mar 2015 15:04:55 CET
+
+BeginCmp
+TimeStamp = /514F46FD/514F5042;
+Reference = C7;
+ValeurCmp = 10uF/25V;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F504A;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5046;
+Reference = C9;
+ValeurCmp = 3.3nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5044;
+Reference = C10;
+ValeurCmp = 10nF;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F504C;
+Reference = C11;
+ValeurCmp = 22uF 6.3v;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D7B7C;
+Reference = P1;
+ValeurCmp = IN;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D7BE3;
+Reference = P2;
+ValeurCmp = OUT;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5040;
+Reference = R6;
+ValeurCmp = 100K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5047;
+Reference = R7;
+ValeurCmp = 6.8K;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5049;
+Reference = R8;
+ValeurCmp = 10K 1%;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5048;
+Reference = R9;
+ValeurCmp = 26.1K 1%;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5056;
+Reference = U6;
+ValeurCmp = MP2307;
+IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F46FD/514F5045;
+Reference = U7;
+ValeurCmp = INDUCTOR_SMALL;
+IdModule  = inductor_smd_4.8x2.8mm;
+EndCmp
+
+EndListe

@@ -1,0 +1,183 @@
+eeschema (2013-may-18)-stable  >> Creation date: mar 16 lug 2013 22:38:41 CEST
+#Cmp ( order = Reference ) (con SubCmp)
+| BT1        BATTERY                         Loc /(X=385,445 mm, Y=240,030 mm);             ;             
+| C2         10uF/25V                        Loc /Voltage_Regulation_5V/(X=104,775 mm, Y=85,725 mm);             ;             
+| C3         0.1uF                           Loc /Voltage_Regulation_5V/(X=110,490 mm, Y=109,855 mm);             ;             
+| C4         3.3nF                           Loc /Voltage_Regulation_5V/(X=139,700 mm, Y=117,475 mm);             ;             
+| C5         10nF                            Loc /Voltage_Regulation_5V/(X=149,860 mm, Y=80,645 mm);             ;             
+| C6         22uF 6.3v                       Loc /Voltage_Regulation_5V/(X=183,515 mm, Y=110,490 mm);             ;             
+| C7         10uF/25V                        Loc /Voltage_regulation_3V/(X=108,585 mm, Y=85,725 mm);             ;             
+| C8         0.1uF                           Loc /Voltage_regulation_3V/(X=114,300 mm, Y=109,855 mm);             ;             
+| C9         3.3nF                           Loc /Voltage_regulation_3V/(X=143,510 mm, Y=117,475 mm);             ;             
+| C10        10nF                            Loc /Voltage_regulation_3V/(X=153,670 mm, Y=80,645 mm);             ;             
+| C11        22uF 6.3v                       Loc /Voltage_regulation_3V/(X=187,325 mm, Y=110,490 mm);             ;             
+| C12        0.1uF                           Loc /FTDI_Debug_port/(X=97,155 mm, Y=76,835 mm);             ;             
+| C13        0.1uF                           Loc /FTDI_Debug_port/(X=111,760 mm, Y=116,205 mm);             ;             
+| CP1        10uF                            Loc /FTDI_Debug_port/(X=106,045 mm, Y=76,835 mm);             ;             
+| D1         LED                             Loc /FTDI_Debug_port/(X=172,720 mm, Y=93,980 mm);             ;             
+| D2         LED                             Loc /FTDI_Debug_port/(X=179,705 mm, Y=93,980 mm);             ;             
+| J1         USB_MICRO                       Loc /(X=122,555 mm, Y=250,190 mm);             ;             
+| J2         HR911105_RJ45                    Loc /(X=258,445 mm, Y=260,985 mm);             ;             
+| P1         CONN_2                          Loc /(X=50,800 mm, Y=215,900 mm);             ;             
+| P2         CONN_2                          Loc /(X=280,670 mm, Y=26,035 mm);             ;             
+| P3         CONN_4                          Loc /(X=291,465 mm, Y=252,730 mm);             ;             
+| P4         CONN_5                          Loc /(X=296,545 mm, Y=25,400 mm);             ;             
+| P5         CONN_5                          Loc /(X=307,975 mm, Y=254,000 mm);             ;             
+| P6         CONN_6                          Loc /(X=317,500 mm, Y=26,035 mm);             ;             
+| P7         CONN_8      ~                   Loc /(X=372,110 mm, Y=20,320 mm); ~           ; ~           
+| P8         CONN_10     ~                   Loc /(X=368,300 mm, Y=62,230 mm); ~           ; ~           
+| P9         CONN_8      ~                   Loc /(X=392,430 mm, Y=20,320 mm); ~           ; ~           
+| P10        CONN_9      ~                   Loc /(X=392,430 mm, Y=62,230 mm); ~           ; ~           
+| P11        CONN_4                          Loc /(X=288,290 mm, Y=278,765 mm);             ;             
+| P12        CONN_4      ~                   Loc /(X=327,660 mm, Y=257,810 mm); ~           ; ~           
+| P13        CONN_4      ~                   Loc /(X=344,170 mm, Y=257,810 mm); ~           ; ~           
+| P14        CONN_4      ~                   Loc /(X=359,410 mm, Y=257,810 mm); ~           ; ~           
+| R2         100K                            Loc /Voltage_Regulation_5V/(X=110,490 mm, Y=86,995 mm);             ;             
+| R3         6.8K                            Loc /Voltage_Regulation_5V/(X=134,620 mm, Y=123,825 mm);             ;             
+| R4         10K 1%                          Loc /Voltage_Regulation_5V/(X=170,815 mm, Y=111,760 mm);             ;             
+| R5         44.2K 1%                        Loc /Voltage_Regulation_5V/(X=177,165 mm, Y=105,410 mm);             ;             
+| R6         100K                            Loc /Voltage_regulation_3V/(X=114,300 mm, Y=86,995 mm);             ;             
+| R7         6.8K                            Loc /Voltage_regulation_3V/(X=138,430 mm, Y=123,825 mm);             ;             
+| R8         10K 1%                          Loc /Voltage_regulation_3V/(X=174,625 mm, Y=111,760 mm);             ;             
+| R9         26.1K 1%                        Loc /Voltage_regulation_3V/(X=180,975 mm, Y=105,410 mm);             ;             
+| R10        270                             Loc /FTDI_Debug_port/(X=172,720 mm, Y=82,550 mm);             ;             
+| R11        270                             Loc /FTDI_Debug_port/(X=179,705 mm, Y=82,550 mm);             ;             
+| SW2        SW_PUSH                         Loc /(X=396,875 mm, Y=201,930 mm);             ;             
+| U1         DS18S20                         Loc /(X=227,965 mm, Y=262,890 mm);             ;             
+| U2         MICROSDCARD                     Loc /(X=249,555 mm, Y=33,020 mm);             ;             
+| U3         ARIAG25                         Loc /(X=318,135 mm, Y=170,815 mm); Aria-G25    ;             
+| U4         MP2307      ~                   Loc /Voltage_Regulation_5V/(X=133,350 mm, Y=99,695 mm); ~           ; ~           
+| U5         INDUCTOR_SMALL                    Loc /Voltage_Regulation_5V/(X=177,165 mm, Y=93,345 mm);             ;             
+| U6         MP2307      ~                   Loc /Voltage_regulation_3V/(X=137,160 mm, Y=99,695 mm); ~           ; ~           
+| U7         INDUCTOR_SMALL                    Loc /Voltage_regulation_3V/(X=180,975 mm, Y=93,345 mm);             ;             
+| U8         FT232RL                         Loc /FTDI_Debug_port/(X=138,430 mm, Y=98,425 mm);             ;             
+#End Cmp
+
+#Cmp ( ordine = Valore ) (con SubCmp)
+| BATTERY      BT1       Loc /(X=385,445 mm, Y=240,030 mm);             ;             
+| 3.3nF        C4        Loc /Voltage_Regulation_5V/(X=139,700 mm, Y=117,475 mm);             ;             
+| 3.3nF        C9        Loc /Voltage_regulation_3V/(X=143,510 mm, Y=117,475 mm);             ;             
+| 10nF         C5        Loc /Voltage_Regulation_5V/(X=149,860 mm, Y=80,645 mm);             ;             
+| 10nF         C10       Loc /Voltage_regulation_3V/(X=153,670 mm, Y=80,645 mm);             ;             
+| 0.1uF        C3        Loc /Voltage_Regulation_5V/(X=110,490 mm, Y=109,855 mm);             ;             
+| 0.1uF        C8        Loc /Voltage_regulation_3V/(X=114,300 mm, Y=109,855 mm);             ;             
+| 0.1uF        C12       Loc /FTDI_Debug_port/(X=97,155 mm, Y=76,835 mm);             ;             
+| 0.1uF        C13       Loc /FTDI_Debug_port/(X=111,760 mm, Y=116,205 mm);             ;             
+| 10uF/25V     C2        Loc /Voltage_Regulation_5V/(X=104,775 mm, Y=85,725 mm);             ;             
+| 10uF/25V     C7        Loc /Voltage_regulation_3V/(X=108,585 mm, Y=85,725 mm);             ;             
+| 22uF 6.3v    C6        Loc /Voltage_Regulation_5V/(X=183,515 mm, Y=110,490 mm);             ;             
+| 22uF 6.3v    C11       Loc /Voltage_regulation_3V/(X=187,325 mm, Y=110,490 mm);             ;             
+| 10uF         CP1       Loc /FTDI_Debug_port/(X=106,045 mm, Y=76,835 mm);             ;             
+| LED          D1        Loc /FTDI_Debug_port/(X=172,720 mm, Y=93,980 mm);             ;             
+| LED          D2        Loc /FTDI_Debug_port/(X=179,705 mm, Y=93,980 mm);             ;             
+| USB_MICRO    J1        Loc /(X=122,555 mm, Y=250,190 mm);             ;             
+| HR911105_RJ45 J2        Loc /(X=258,445 mm, Y=260,985 mm);             ;             
+| CONN_2       P1        Loc /(X=50,800 mm, Y=215,900 mm);             ;             
+| CONN_2       P2        Loc /(X=280,670 mm, Y=26,035 mm);             ;             
+| CONN_4       P3        Loc /(X=291,465 mm, Y=252,730 mm);             ;             
+| CONN_5       P4        Loc /(X=296,545 mm, Y=25,400 mm);             ;             
+| CONN_5       P5        Loc /(X=307,975 mm, Y=254,000 mm);             ;             
+| CONN_6       P6        Loc /(X=317,500 mm, Y=26,035 mm);             ;             
+| CONN_4       P11       Loc /(X=288,290 mm, Y=278,765 mm);             ;             
+| CONN_8       P7        Loc /(X=372,110 mm, Y=20,320 mm); ~           ; ~           
+| CONN_10      P8        Loc /(X=368,300 mm, Y=62,230 mm); ~           ; ~           
+| CONN_8       P9        Loc /(X=392,430 mm, Y=20,320 mm); ~           ; ~           
+| CONN_9       P10       Loc /(X=392,430 mm, Y=62,230 mm); ~           ; ~           
+| CONN_4       P12       Loc /(X=327,660 mm, Y=257,810 mm); ~           ; ~           
+| CONN_4       P13       Loc /(X=344,170 mm, Y=257,810 mm); ~           ; ~           
+| CONN_4       P14       Loc /(X=359,410 mm, Y=257,810 mm); ~           ; ~           
+| 270          R10       Loc /FTDI_Debug_port/(X=172,720 mm, Y=82,550 mm);             ;             
+| 270          R11       Loc /FTDI_Debug_port/(X=179,705 mm, Y=82,550 mm);             ;             
+| 6.8K         R3        Loc /Voltage_Regulation_5V/(X=134,620 mm, Y=123,825 mm);             ;             
+| 6.8K         R7        Loc /Voltage_regulation_3V/(X=138,430 mm, Y=123,825 mm);             ;             
+| 10K 1%       R4        Loc /Voltage_Regulation_5V/(X=170,815 mm, Y=111,760 mm);             ;             
+| 10K 1%       R8        Loc /Voltage_regulation_3V/(X=174,625 mm, Y=111,760 mm);             ;             
+| 26.1K 1%     R9        Loc /Voltage_regulation_3V/(X=180,975 mm, Y=105,410 mm);             ;             
+| 44.2K 1%     R5        Loc /Voltage_Regulation_5V/(X=177,165 mm, Y=105,410 mm);             ;             
+| 100K         R2        Loc /Voltage_Regulation_5V/(X=110,490 mm, Y=86,995 mm);             ;             
+| 100K         R6        Loc /Voltage_regulation_3V/(X=114,300 mm, Y=86,995 mm);             ;             
+| SW_PUSH      SW2       Loc /(X=396,875 mm, Y=201,930 mm);             ;             
+| DS18S20      U1        Loc /(X=227,965 mm, Y=262,890 mm);             ;             
+| MICROSDCARD  U2        Loc /(X=249,555 mm, Y=33,020 mm);             ;             
+| INDUCTOR_SMALL U5        Loc /Voltage_Regulation_5V/(X=177,165 mm, Y=93,345 mm);             ;             
+| INDUCTOR_SMALL U7        Loc /Voltage_regulation_3V/(X=180,975 mm, Y=93,345 mm);             ;             
+| FT232RL      U8        Loc /FTDI_Debug_port/(X=138,430 mm, Y=98,425 mm);             ;             
+| ARIAG25      U3        Loc /(X=318,135 mm, Y=170,815 mm); Aria-G25    ;             
+| MP2307       U4        Loc /Voltage_Regulation_5V/(X=133,350 mm, Y=99,695 mm); ~           ; ~           
+| MP2307       U6        Loc /Voltage_regulation_3V/(X=137,160 mm, Y=99,695 mm); ~           ; ~           
+#Fine Cmp
+
+#Etichette globali, gerarchiche e piedini del foglio ( ordine = Numero foglio ) conteggio = 33
+> +3V                          PinSheet Input   Loc /(X=72,390 mm, Y=248,920 mm)
+> +3V                          PinSheet Input   Loc /(X=159,385 mm, Y=250,190 mm)
+> +5V                          PinSheet Input   Loc /(X=26,670 mm, Y=248,920 mm)
+> +5V                          PinSheet Input   Loc /(X=159,385 mm, Y=254,000 mm)
+> D_RXD                        PinSheet Input   Loc /(X=185,420 mm, Y=249,555 mm)
+> D_TXD                        PinSheet Input   Loc /(X=185,420 mm, Y=254,635 mm)
+> GND                          PinSheet Input   Loc /(X=26,670 mm, Y=259,080 mm)
+> GND                          PinSheet Input   Loc /(X=72,390 mm, Y=259,080 mm)
+> GND                          PinSheet Input   Loc /(X=159,385 mm, Y=265,430 mm)
+> RST                          PinSheet Input   Loc /(X=185,420 mm, Y=259,715 mm)
+> USB_D+                       PinSheet Input   Loc /(X=159,385 mm, Y=261,620 mm)
+> USB_D-                       PinSheet Input   Loc /(X=159,385 mm, Y=257,810 mm)
+> USB_PWR                      PinSheet Input   Loc /(X=159,385 mm, Y=246,380 mm)
+> VIN                          PinSheet Input   Loc /(X=72,390 mm, Y=255,270 mm)
+> VIN                          PinSheet Input   Loc /(X=26,670 mm, Y=255,270 mm)
+> +5V                          Hierarchical        Loc /Voltage_Regulation_5V/(X=183,515 mm, Y=93,345 mm)
+> GND                          Hierarchical        Loc /Voltage_Regulation_5V/(X=50,800 mm, Y=91,440 mm)
+> VIN                          Hierarchical        Loc /Voltage_Regulation_5V/(X=50,800 mm, Y=99,060 mm)
+> +3V                          Hierarchical        Loc /Voltage_regulation_3V/(X=187,325 mm, Y=93,345 mm)
+> GND                          Hierarchical        Loc /Voltage_regulation_3V/(X=76,200 mm, Y=106,680 mm)
+> VIN                          Hierarchical        Loc /Voltage_regulation_3V/(X=76,200 mm, Y=100,330 mm)
+> +3V                          Hierarchical        Loc /FTDI_Debug_port/(X=114,300 mm, Y=79,375 mm)
+> +5V                          Hierarchical        Loc /FTDI_Debug_port/(X=176,530 mm, Y=71,755 mm)
+> D_RXD                        Hierarchical        Loc /FTDI_Debug_port/(X=161,290 mm, Y=83,185 mm)
+> D_TXD                        Hierarchical        Loc /FTDI_Debug_port/(X=161,290 mm, Y=80,645 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=138,430 mm, Y=133,985 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=111,760 mm, Y=121,285 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=71,755 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=106,045 mm, Y=71,755 mm)
+> RST                          Hierarchical        Loc /FTDI_Debug_port/(X=114,300 mm, Y=98,425 mm)
+> USB_D+                       Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=86,995 mm)
+> USB_D-                       Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=84,455 mm)
+> USB_PWR                      Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=81,915 mm)
+#Fine etichette
+
+#Etichette globali, gerarchiche e piedini del foglio ( ordine = Alfabetico) conteggio = 33
+
+> +3V                          PinSheet Input   Loc /(X=72,390 mm, Y=248,920 mm)
+> +3V                          PinSheet Input   Loc /(X=159,385 mm, Y=250,190 mm)
+> +3V                          Hierarchical        Loc /Voltage_regulation_3V/(X=187,325 mm, Y=93,345 mm)
+> +3V                          Hierarchical        Loc /FTDI_Debug_port/(X=114,300 mm, Y=79,375 mm)
+> +5V                          PinSheet Input   Loc /(X=26,670 mm, Y=248,920 mm)
+> +5V                          PinSheet Input   Loc /(X=159,385 mm, Y=254,000 mm)
+> +5V                          Hierarchical        Loc /Voltage_Regulation_5V/(X=183,515 mm, Y=93,345 mm)
+> +5V                          Hierarchical        Loc /FTDI_Debug_port/(X=176,530 mm, Y=71,755 mm)
+> D_RXD                        PinSheet Input   Loc /(X=185,420 mm, Y=249,555 mm)
+> D_RXD                        Hierarchical        Loc /FTDI_Debug_port/(X=161,290 mm, Y=83,185 mm)
+> D_TXD                        PinSheet Input   Loc /(X=185,420 mm, Y=254,635 mm)
+> D_TXD                        Hierarchical        Loc /FTDI_Debug_port/(X=161,290 mm, Y=80,645 mm)
+> GND                          PinSheet Input   Loc /(X=159,385 mm, Y=265,430 mm)
+> GND                          PinSheet Input   Loc /(X=72,390 mm, Y=259,080 mm)
+> GND                          PinSheet Input   Loc /(X=26,670 mm, Y=259,080 mm)
+> GND                          Hierarchical        Loc /Voltage_Regulation_5V/(X=50,800 mm, Y=91,440 mm)
+> GND                          Hierarchical        Loc /Voltage_regulation_3V/(X=76,200 mm, Y=106,680 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=106,045 mm, Y=71,755 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=111,760 mm, Y=121,285 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=138,430 mm, Y=133,985 mm)
+> GND                          Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=71,755 mm)
+> RST                          PinSheet Input   Loc /(X=185,420 mm, Y=259,715 mm)
+> RST                          Hierarchical        Loc /FTDI_Debug_port/(X=114,300 mm, Y=98,425 mm)
+> USB_D+                       PinSheet Input   Loc /(X=159,385 mm, Y=261,620 mm)
+> USB_D+                       Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=86,995 mm)
+> USB_D-                       PinSheet Input   Loc /(X=159,385 mm, Y=257,810 mm)
+> USB_D-                       Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=84,455 mm)
+> USB_PWR                      PinSheet Input   Loc /(X=159,385 mm, Y=246,380 mm)
+> USB_PWR                      Hierarchical        Loc /FTDI_Debug_port/(X=97,155 mm, Y=81,915 mm)
+> VIN                          PinSheet Input   Loc /(X=72,390 mm, Y=255,270 mm)
+> VIN                          PinSheet Input   Loc /(X=26,670 mm, Y=255,270 mm)
+> VIN                          Hierarchical        Loc /Voltage_Regulation_5V/(X=50,800 mm, Y=99,060 mm)
+> VIN                          Hierarchical        Loc /Voltage_regulation_3V/(X=76,200 mm, Y=100,330 mm)
+#Fine etichette
+
+#Fine Lista
