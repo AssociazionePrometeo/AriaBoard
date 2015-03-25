@@ -1,6 +1,6 @@
-update=Fri 05 Jul 2013 15:33:40 CEST
+update=mer 25 mar 2015 19:07:43 CET
 version=1
-last_client=pcbnew
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -51,8 +51,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=AriaBoard.net
@@ -105,3 +103,5 @@ LibName28=connectors
 LibName29=8_10-card
 LibName30=fv_kicad_lib
 LibName31=Logos
+[general]
+version=1

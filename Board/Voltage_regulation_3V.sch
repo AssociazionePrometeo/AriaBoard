@@ -1,4 +1,10 @@
 EESchema Schematic File Version 2
+LIBS:dallas
+LIBS:arduino_shieldsNCL
+LIBS:open-project
+LIBS:device_sot
+LIBS:connectors
+LIBS:openlab_lib
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,14 +35,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Voltage_regulation_3V-cache
+LIBS:AriaBoard-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title "AriaBoard"
-Date "12 mar 2015"
+Date "25 mar 2015"
 Rev "0.1"
 Comp "Associazione Pometeo"
 Comment1 "Openlab_to"
@@ -64,17 +70,6 @@ F 1 "10uF/25V" H 3800 3275 50  0000 L CNN
 F 2 "" H 4275 3375 60  0000 C CNN
 F 3 "" H 4275 3375 60  0000 C CNN
 	1    4275 3375
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR041
-U 1 1 514F5043
-P 4275 3675
-F 0 "#PWR041" H 4275 3675 30  0001 C CNN
-F 1 "GND" H 4275 3605 30  0001 C CNN
-F 2 "" H 4275 3675 60  0000 C CNN
-F 3 "" H 4275 3675 60  0000 C CNN
-	1    4275 3675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -155,17 +150,6 @@ F 3 "" H 4500 4325 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
-U 1 1 514F504B
-P 4500 4525
-F 0 "#PWR042" H 4500 4525 30  0001 C CNN
-F 1 "GND" H 4500 4455 30  0001 C CNN
-F 2 "" H 4500 4525 60  0000 C CNN
-F 3 "" H 4500 4525 60  0000 C CNN
-	1    4500 4525
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C11
 U 1 1 514F504C
 P 7375 4350
@@ -225,21 +209,56 @@ Wire Wire Line
 	4275 3575 4275 3675
 Text HLabel 7375 3675 2    60   Input ~ 0
 +3V
-Text Label 3000 4200 2    60   ~ 0
-GND
 Text Label 3000 3950 2    60   ~ 0
 VIN
 Text Label 4200 3175 2    60   ~ 0
 VIN
 $Comp
-L GND #PWR043
-U 1 1 514FEFCD
-P 6875 5125
-F 0 "#PWR043" H 6875 5125 30  0001 C CNN
-F 1 "GND" H 6875 5055 30  0001 C CNN
-F 2 "" H 6875 5125 60  0000 C CNN
-F 3 "" H 6875 5125 60  0000 C CNN
-	1    6875 5125
+L PGND #PWR042
+U 1 1 55130C47
+P 4275 3675
+F 0 "#PWR042" H 4275 3675 40  0001 C CNN
+F 1 "PGND" H 4275 3605 40  0000 C CNN
+F 2 "~" H 4275 3675 60  0000 C CNN
+F 3 "~" H 4275 3675 60  0000 C CNN
+	1    4275 3675
 	1    0    0    -1  
 $EndComp
+$Comp
+L PGND #PWR043
+U 1 1 55130C68
+P 4500 4525
+F 0 "#PWR043" H 4500 4525 40  0001 C CNN
+F 1 "PGND" H 4500 4455 40  0000 C CNN
+F 2 "~" H 4500 4525 60  0000 C CNN
+F 3 "~" H 4500 4525 60  0000 C CNN
+	1    4500 4525
+	1    0    0    -1  
+$EndComp
+$Comp
+L PGND #PWR044
+U 1 1 55130C78
+P 5450 5125
+F 0 "#PWR044" H 5450 5125 40  0001 C CNN
+F 1 "PGND" H 5450 5055 40  0000 C CNN
+F 2 "~" H 5450 5125 60  0000 C CNN
+F 3 "~" H 5450 5125 60  0000 C CNN
+	1    5450 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L PGND #PWR045
+U 1 1 55130C7E
+P 2775 4325
+F 0 "#PWR045" H 2775 4325 40  0001 C CNN
+F 1 "PGND" H 2775 4255 40  0000 C CNN
+F 2 "~" H 2775 4325 60  0000 C CNN
+F 3 "~" H 2775 4325 60  0000 C CNN
+	1    2775 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4200 2775 4200
+Wire Wire Line
+	2775 4200 2775 4325
 $EndSCHEMATC

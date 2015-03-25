@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-30)-stable date = Sun 26 May 2013 19:09:03 CEST
+Cmp-Mod V01 Created by CvPcb (2014-01-10 BZR 4027)-stable date = mer 25 mar 2015 19:39:52 CET
 
 BeginCmp
 TimeStamp = /51473B6D;
@@ -110,6 +110,20 @@ TimeStamp = /514F7B03/514F8130;
 Reference = D2;
 ValeurCmp = LED;
 IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55140A7D;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55134097;
+Reference = F2;
+ValeurCmp = FUSE;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -225,6 +239,13 @@ IdModule  = conn_usb_A-vert;
 EndCmp
 
 BeginCmp
+TimeStamp = /55132C70;
+Reference = R1;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
 TimeStamp = /514F3ED1/514F4618;
 Reference = R2;
 ValeurCmp = 100K;
@@ -292,6 +313,76 @@ TimeStamp = /514F7B03/514F8132;
 Reference = R11;
 ValeurCmp = 270;
 IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513E373;
+Reference = R12;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513E36D;
+Reference = R13;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /55132C63;
+Reference = R14;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /55133098;
+Reference = R15;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513F10D;
+Reference = R16;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513EF07;
+Reference = R17;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513EF01;
+Reference = R18;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /55135421;
+Reference = R19;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /55135427;
+Reference = R20;
+ValeurCmp = 0;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /55133E3C;
+Reference = SW1;
+ValeurCmp = SOLDER_SWITCH;
+IdModule  = SWITCH_ALPS_SSSS8;
 EndCmp
 
 BeginCmp
