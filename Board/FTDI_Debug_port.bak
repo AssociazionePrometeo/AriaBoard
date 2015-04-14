@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "AriaBoard"
-Date "25 mar 2015"
+Date "14 apr 2015"
 Rev "0.1"
 Comp "Associazione Pometeo"
 Comment1 "Openlab_to"
@@ -221,10 +221,10 @@ GND
 Text HLabel 4175 2825 0    60   Input ~ 0
 GND
 $Comp
-L PWR_FLAG #FLG046
+L PWR_FLAG #FLG044
 U 1 1 51509D50
 P 4400 3225
-F 0 "#FLG046" H 4400 3320 30  0001 C CNN
+F 0 "#FLG044" H 4400 3320 30  0001 C CNN
 F 1 "PWR_FLAG" H 4400 3405 30  0000 C CNN
 F 2 "" H 4400 3225 60  0000 C CNN
 F 3 "" H 4400 3225 60  0000 C CNN
