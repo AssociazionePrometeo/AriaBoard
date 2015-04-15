@@ -43,10 +43,10 @@ encoding utf-8
 Sheet 2 4
 Title "AriaBoard"
 Date "14 apr 2015"
-Rev "0.1"
+Rev "0.1A"
 Comp "Associazione Pometeo"
-Comment1 "Openlab_to"
-Comment2 "OpenHardware CC-BY-SA"
+Comment1 "Released under License CC BY-SA 4.0"
+Comment2 "http://www.prometeolibero.eu"
 Comment3 ""
 Comment4 ""
 $EndDescr
